@@ -1,0 +1,127 @@
+
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Oswald:wght@200;300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Abeezee", "sans-serif";
+}
+.top-header-bar {
+    background-color: #086c07;
+   
+    letter-spacing: 8px;
+    padding: 10px;
+  }
+  
+  .top-header-bar > svg {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+  }
+   /* Nav Section Start*/
+  nav{
+    background-color: #217d04;
+  }
+  nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav.li {
+    display: inline;
+  }
+  nav,li,a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+    color: white;
+  }
+   /* Nav Section end */
+  /*hero-section Start  */
+  .hero-section > h1:first-child {
+    font-size: 55px;
+    padding-top: 40px;
+  }
+  .hero-section {
+    text-align: center;
+    line-height: 65px;
+    font-size: 32px;
+    background: linear-gradient(#fff, #acfe95);
+  }
+  
+  .hero-section > div {
+    line-height: 35px;
+    margin-top: 2rem;
+  }
+  
+  .hero-section > div > * {
+    margin-bottom: 1.5rem;
+    font-size: 19px;
+  }
+  .hero-section .downloads-count {
+    font-size: 69px;
+    color: #086c07;
+  }
+    /*hero-section End */
+  /* ********************** */
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.articles {
+  width: 80vw;
+  /* border: 10px solid #000; */
+  margin: auto;
+}
+
+.article-heading {
+  width: 250px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.articles h1 {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 2px;
+  font-weight: 600;
+  background-color: #0ebd3f;
+}
+
+.article-body-content {
+  line-height: 37px;
+  font-size: 20px;
+  width: 65%;
+  padding: 2rem 2rem;
+  border-left: 5px solid #0000000d;
+  height: max-content;
+}
+
+.images-div {
+  min-width: 400px;
+  max-width: 550px;
+}
+
+.images-div > img {
+  width: 100%;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+
+
+
+
